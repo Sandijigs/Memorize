@@ -1,0 +1,13 @@
+# Rust build output
+/target
+# WebAssembly build output
+/engine/pkg
+# Node and SvelteKit
+node_modules/
+/app/.svelte-kit/
+/app/build/
+# Secrets and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
